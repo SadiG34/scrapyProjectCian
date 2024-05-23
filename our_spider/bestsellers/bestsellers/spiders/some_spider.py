@@ -16,7 +16,7 @@ filtered_data = []
 def parse_cian(page_num):
     url = f'https://kazan.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&p={page_num}&region=4777&room1=1'
 
-    driver = webdriver.Chrome()  # Инициализация драйвера
+    driver = webdriver.Chrome()
     driver.get(url)
 
     while True:

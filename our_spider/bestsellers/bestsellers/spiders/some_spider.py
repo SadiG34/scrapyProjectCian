@@ -67,4 +67,4 @@ def parse_cian(page_num):
         json.dump(filtered_data, f, ensure_ascii=False)
 
 
-parse_cian(54)  # Введите номер страницы
+parse_cian(1)  # Введите номер страницы
